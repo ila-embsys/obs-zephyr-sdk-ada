@@ -1,0 +1,38 @@
+Source: zephyr-sdk-ng
+Priority: extra
+Maintainer: Ilya Stolyarov <ila.embsys@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.5
+Section: devel
+
+Package: arm-zephyr-eabi
+Recommends: zephyr-sdk-version zephyr-sdk-cmake zephyr-sdk-gdb-python
+Section: devel
+Architecture: amd64
+Description: arm-zephyr-eabi toolchain with enabled Ada lang
+
+Package: riscv64-zephyr-eabi
+Recommends: zephyr-sdk-version zephyr-sdk-cmake zephyr-sdk-gdb-python
+Section: devel
+Architecture: amd64
+Description: riscv64-zephyr-eabi toolchain with enabled Ada lang
+
+Package: zephyr-sdk-version
+Section: devel
+Architecture: amd64
+Description: Version file for Zephyr toolchain
+
+Package: zephyr-sdk-cmake
+Section: devel
+Architecture: amd64
+Description: CMake built by crosstool during build Zephyr toolchain
+
+Package: zephyr-sdk-gdb-python
+Section: devel
+Architecture: amd64
+Description: Common Python extensions for GDB built by crosstool during build Zephyr toolchain
+
+Package: zephyr-sdk-licenses
+Section: devel
+Architecture: amd64
+Description: Common licenses part built by crosstool during build Zephyr toolchain

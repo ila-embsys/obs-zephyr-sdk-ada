@@ -1,0 +1,6 @@
+opt/zephyr-sdk/riscv64-zephyr-elf/riscv64-zephyr-elf opt/zephyr-sdk/
+opt/zephyr-sdk/riscv64-zephyr-elf/bin opt/zephyr-sdk/
+opt/zephyr-sdk/riscv64-zephyr-elf/include opt/zephyr-sdk/
+opt/zephyr-sdk/riscv64-zephyr-elf/lib/gcc opt/zephyr-sdk/lib/
+opt/zephyr-sdk/riscv64-zephyr-elf/lib/ldscripts opt/zephyr-sdk/lib/
+opt/zephyr-sdk/riscv64-zephyr-elf/libexec opt/zephyr-sdk/

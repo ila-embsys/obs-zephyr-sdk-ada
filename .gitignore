@@ -1,0 +1,25 @@
+# osc tool
+.osc
+.lock
+
+# temporary services data
+## common archives
+tmp*.obs_scm.service/
+## project specific archives
+binutils-gdb/
+gcc/
+newlib-cygwin/
+sdk-ng/
+
+# could be restored by run osc service manualrun
+## common archives
+*.obscpio
+*.obsinfo
+## project specific archives
+expat-*.tar.xz
+gmp-*.tar.xz
+isl-*.tar.xz
+mpc-*.tar.gz
+mpfr-*.tar.xz
+ncurses-*.tar.gz
+zlib-*.tar.xz
