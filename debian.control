@@ -6,13 +6,13 @@ Standards-Version: 3.9.5
 Section: devel
 
 Package: arm-zephyr-eabi
-Recommends: zephyr-sdk-version zephyr-sdk-cmake zephyr-sdk-gdb-python
+Recommends: zephyr-sdk-version, zephyr-sdk-cmake, zephyr-sdk-gdb-python
 Section: devel
 Architecture: amd64
 Description: arm-zephyr-eabi toolchain with enabled Ada lang
 
 Package: riscv64-zephyr-eabi
-Recommends: zephyr-sdk-version zephyr-sdk-cmake zephyr-sdk-gdb-python
+Recommends: zephyr-sdk-version, zephyr-sdk-cmake, zephyr-sdk-gdb-python
 Section: devel
 Architecture: amd64
 Description: riscv64-zephyr-eabi toolchain with enabled Ada lang
