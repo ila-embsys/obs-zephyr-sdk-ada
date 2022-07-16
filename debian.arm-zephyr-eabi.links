@@ -9,7 +9,7 @@
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-elfedit /usr/bin/arm-zephyr-eabi-elfedit
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-g++ /usr/bin/arm-zephyr-eabi-g++
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gcc /usr/bin/arm-zephyr-eabi-gcc
-/opt/zephyr-sdk/bin/arm-zephyr-eabi-gcc-10.3.0 /usr/bin/arm-zephyr-eabi-gcc-10.3.0
+/opt/zephyr-sdk/bin/arm-zephyr-eabi-gcc-12.1.0 /usr/bin/arm-zephyr-eabi-gcc-12.1.0
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gcc-ar /usr/bin/arm-zephyr-eabi-gcc-ar
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gcc-nm /usr/bin/arm-zephyr-eabi-gcc-nm
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gcc-ranlib /usr/bin/arm-zephyr-eabi-gcc-ranlib

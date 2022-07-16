@@ -1,99 +1,32 @@
 <services>
   <service name="obs_scm" mode="manual" >
-    <param name="url">https://github.com/ila-embsys/sdk-ng.git</param>
+    <param name="url">https://github.com/zephyr-ada/sdk-ng.git</param>
     <param name="scm">git</param>
-    <param name="revision">main</param>
+    <param name="revision">sdk-ada</param>
     <param name="versionformat">@PARENT_TAG@-@TAG_OFFSET@</param>
     <param name="versionrewrite-pattern">v(.*)</param>
     <param name="versionrewrite-replacement">\1</param>
     <param name="filename">zephyr-sdk-ng</param>
   </service>
+  <service name="set_version" mode="manual" />
   <service name="tar" mode="buildtime">
     <param name="obsinfo">zephyr-sdk-ng.obsinfo</param>
-    <param name="exclude">.git</param>
-    <param name="exclude">.buildkite</param>
-    <param name="exclude">.github</param>
+    <param name="exclude">.git**</param>
+    <param name="exclude">.buildkitet**</param>
+    <param name="exclude">.githubt**</param>
   </service>
   <service name="recompress" mode="buildtime">
     <param name="file">*.tar</param>
     <param name="compression">gz</param>
   </service>
-  <service name="set_version" mode="manual" />
-  <service name="obs_scm" mode="manual" >
-    <param name="url">https://github.com/zephyrproject-rtos/gcc.git</param>
-    <param name="scm">git</param>
-    <param name="revision">15e25ddabe2cf9bdfa2ae05b7d7f17067a9b3c7d</param>
-    <param name="version">15e25dda</param>
-    <param name="filename">gcc-git</param>
-  </service>
-  <service name="tar" mode="buildtime">
-    <param name="obsinfo">gcc-git.obsinfo</param>
-  </service>
-  <service name="recompress" mode="buildtime">
-    <param name="file">*.tar</param>
-    <param name="compression">bz2</param>
-  </service>
-  <service name="obs_scm" mode="manual">
-    <param name="scm">git</param>
-    <param name="url">https://github.com/zephyrproject-rtos/binutils-gdb.git</param>
-    <param name="revision">c7d30a54fc17c1e9d9b1c39c7623222442c63af8</param>
-    <param name="filename">binutils-git</param>
-    <!-- <param name="versionformat">%h</param> -->
-    <param name="version">c7d30a54</param>
-  </service>
-  <service name="tar" mode="buildtime">
-    <param name="obsinfo">binutils-git.obsinfo</param>
-  </service>
-  <service name="recompress" mode="buildtime">
-    <param name="file">*.tar</param>
-    <param name="compression">bz2</param>
-  </service>
-  <!-- <service name="set_version" mode="disabled" /> -->
-  <service name="obs_scm" mode="manual">
-    <param name="scm">git</param>
-    <param name="url">https://github.com/zephyrproject-rtos/binutils-gdb.git</param>
-    <param name="revision">76b05e962501d75d995b9f9dd13f837df36b7208</param>
-    <param name="filename">gdb-git</param>
-    <!-- <param name="versionformat">%h</param> -->
-    <param name="version">76b05e96</param>
-  </service>
-  <service name="tar" mode="buildtime">
-    <param name="obsinfo">gdb-git.obsinfo</param>
-  </service>
-  <service name="recompress" mode="buildtime">
-    <param name="file">*.tar</param>
-    <param name="compression">bz2</param>
-  </service>
-  <!-- <service name="set_version" mode="disabled" /> -->
-  <service name="obs_scm" mode="manual">
-    <param name="scm">git</param>
-    <param name="url">https://github.com/zephyrproject-rtos/newlib-cygwin.git</param>
-    <param name="revision">2893dbb10f1fe3bf431a26f89a22e12a5020dc02</param>
-    <!-- <param name="versionformat">%h</param> -->
-  </service>
-  <service name="tar" mode="buildtime">
-    <param name="obsinfo">newlib-cygwin.obsinfo</param>
-    <param name="filename">newlib-git-2893dbb1</param>
-    <!-- <param name="version">2893dbb1</param> -->
-  </service>
-  <service name="tar" mode="buildtime">
-    <param name="obsinfo">newlib-cygwin.obsinfo</param>
-    <param name="filename">newlib-nano-git-2893dbb1</param>
-    <!-- <param name="version">2893dbb1</param> -->
-  </service>
-  <service name="recompress" mode="buildtime">
-    <param name="file">*.tar</param>
-    <param name="compression">bz2</param>
-  </service>
-  <!-- <service name="set_version" mode="disabled" /> -->
   <service name="download_url" mode="manual">
-    <param name="url">https://github.com/libexpat/libexpat/releases/download/R_2_2_9/expat-2.2.9.tar.xz</param>
+    <param name="url">https://github.com/libexpat/libexpat/releases/download/R_2_4_1/expat-2.4.1.tar.xz</param>
   </service>
   <service name="download_url" mode="manual">
     <param name="url">https://gmplib.org/download/gmp/gmp-6.2.1.tar.xz</param>
   </service>
   <service name="download_url" mode="manual">
-    <param name="url">https://libisl.sourceforge.io/isl-0.22.tar.xz</param>
+    <param name="url">https://libisl.sourceforge.io/isl-0.24.tar.xz</param>
   </service>
   <service name="download_url" mode="manual">
     <param name="url">https://www.multiprecision.org/downloads/mpc-1.2.0.tar.gz</param>
@@ -102,12 +35,9 @@
     <param name="url">https://www.mpfr.org/mpfr-current/mpfr-4.1.0.tar.xz</param>
   </service>
   <service name="download_url" mode="manual">
-    <param name="url">https://www.mpfr.org/mpfr-current/mpfr-4.1.0.tar.xz</param>
-  </service>
-  <service name="download_url" mode="manual">
     <param name="url">https://invisible-mirror.net/archives/ncurses/ncurses-6.2.tar.gz</param>
   </service>
   <service name="download_url" mode="manual">
-    <param name="url">https://www.zlib.net/zlib-1.2.11.tar.xz</param>
+    <param name="url">https://sourceforge.net/projects/libpng/files/zlib/1.2.11/zlib-1.2.11.tar.xz</param>
   </service>
 </services>

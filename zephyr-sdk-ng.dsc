@@ -1,6 +1,6 @@
 Format: 3.0 (quilt)
 Source: zephyr-sdk-ng
-Version: 0.13.2-19-0
+Version: 0.13.2-163-0
 Binary: arm-zephyr-eabi
 Maintainer: Ilya Stolyarov <ila.embsys@gmail.com>
 Architecture: amd64
@@ -20,20 +20,16 @@ Build-Depends:
  flex,
  help2man,
  texinfo,
- wget,
- gnat
+ g++-12,
+ gnat-12,
+ gprbuild
 Files:
-DEBTRANSFORM-TAR: zephyr-sdk-ng-0.13.2-19.tar.gz
+DEBTRANSFORM-TAR: zephyr-sdk-ng-0.13.2-163.tar.gz
 DEBTRANSFORM-FILES:
- binutils-git-c7d30a54.tar.bz2
- gdb-git-76b05e96.tar.bz2
- expat-2.2.9.tar.xz
+ expat-2.4.1.tar.xz
  gmp-6.2.1.tar.xz
- gcc-git-15e25dda.tar.bz2
- isl-0.22.tar.xz
+ isl-0.24.tar.xz
  mpc-1.2.0.tar.gz
  mpfr-4.1.0.tar.xz
  ncurses-6.2.tar.gz
  zlib-1.2.11.tar.xz
- newlib-git-2893dbb1.tar.bz2
- newlib-nano-git-2893dbb1.tar.bz2

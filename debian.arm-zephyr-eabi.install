@@ -2,5 +2,4 @@ opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi opt/zephyr-sdk/
 opt/zephyr-sdk/arm-zephyr-eabi/bin opt/zephyr-sdk/
 opt/zephyr-sdk/arm-zephyr-eabi/include opt/zephyr-sdk/
 opt/zephyr-sdk/arm-zephyr-eabi/lib/gcc opt/zephyr-sdk/lib/
-opt/zephyr-sdk/arm-zephyr-eabi/lib/ldscripts opt/zephyr-sdk/lib/
 opt/zephyr-sdk/arm-zephyr-eabi/libexec opt/zephyr-sdk/

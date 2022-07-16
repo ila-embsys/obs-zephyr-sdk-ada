@@ -9,7 +9,7 @@
 /opt/zephyr-sdk/bin/riscv64-zephyr-elf-elfedit /usr/bin/riscv64-zephyr-elf-elfedit
 /opt/zephyr-sdk/bin/riscv64-zephyr-elf-g++ /usr/bin/riscv64-zephyr-elf-g++
 /opt/zephyr-sdk/bin/riscv64-zephyr-elf-gcc /usr/bin/riscv64-zephyr-elf-gcc
-/opt/zephyr-sdk/bin/riscv64-zephyr-elf-gcc-10.3.0 /usr/bin/riscv64-zephyr-elf-gcc-10.3.0
+/opt/zephyr-sdk/bin/riscv64-zephyr-elf-gcc-12.1.0 /usr/bin/riscv64-zephyr-elf-gcc-12.1.0
 /opt/zephyr-sdk/bin/riscv64-zephyr-elf-gcc-ar /usr/bin/riscv64-zephyr-elf-gcc-ar
 /opt/zephyr-sdk/bin/riscv64-zephyr-elf-gcc-nm /usr/bin/riscv64-zephyr-elf-gcc-nm
 /opt/zephyr-sdk/bin/riscv64-zephyr-elf-gcc-ranlib /usr/bin/riscv64-zephyr-elf-gcc-ranlib
