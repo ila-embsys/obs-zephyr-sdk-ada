@@ -1,6 +1,6 @@
 Format: 3.0 (quilt)
 Source: zephyr-sdk-ng
-Version: 0.13.2-163-0
+Version: 0.15.0-beta2-29-0
 Binary: arm-zephyr-eabi
 Maintainer: Ilya Stolyarov <ila.embsys@gmail.com>
 Architecture: amd64
