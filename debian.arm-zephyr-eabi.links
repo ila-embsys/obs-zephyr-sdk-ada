@@ -2,8 +2,8 @@
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-ar /usr/bin/arm-zephyr-eabi-ar
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-as /usr/bin/arm-zephyr-eabi-as
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-c++ /usr/bin/arm-zephyr-eabi-c++
-/opt/zephyr-sdk/bin/arm-zephyr-eabi-c++filt /usr/bin/arm-zephyr-eabi-c++filt
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-cc /usr/bin/arm-zephyr-eabi-cc
+/opt/zephyr-sdk/bin/arm-zephyr-eabi-c++filt /usr/bin/arm-zephyr-eabi-c++filt
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-cpp /usr/bin/arm-zephyr-eabi-cpp
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-ct-ng.config /usr/bin/arm-zephyr-eabi-ct-ng.config
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-elfedit /usr/bin/arm-zephyr-eabi-elfedit
@@ -18,11 +18,8 @@
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gcov-tool /usr/bin/arm-zephyr-eabi-gcov-tool
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gdb /usr/bin/arm-zephyr-eabi-gdb
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gdb-add-index /usr/bin/arm-zephyr-eabi-gdb-add-index
-/opt/zephyr-sdk/bin/arm-zephyr-eabi-gdb-add-index-no-py /usr/bin/arm-zephyr-eabi-gdb-add-index-no-py
-/opt/zephyr-sdk/bin/arm-zephyr-eabi-gdb-no-py /usr/bin/arm-zephyr-eabi-gdb-no-py
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gnatbind /usr/bin/arm-zephyr-eabi-gnatbind
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-gprof /usr/bin/arm-zephyr-eabi-gprof
-/opt/zephyr-sdk/bin/arm-zephyr-eabi-gprof-no-py /usr/bin/arm-zephyr-eabi-gprof-no-py
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-ld /usr/bin/arm-zephyr-eabi-ld
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-ld.bfd /usr/bin/arm-zephyr-eabi-ld.bfd
 /opt/zephyr-sdk/bin/arm-zephyr-eabi-lto-dump /usr/bin/arm-zephyr-eabi-lto-dump
