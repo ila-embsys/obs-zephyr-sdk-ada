@@ -24,7 +24,7 @@ Build-Depends:
  gnat-12,
  gprbuild
 Files:
-DEBTRANSFORM-TAR: zephyr-sdk-ng-0.13.2-163.tar.gz
+DEBTRANSFORM-TAR: zephyr-sdk-ng-0.15.0-beta2-29.tar.gz
 DEBTRANSFORM-FILES:
  expat-2.4.1.tar.xz
  gmp-6.2.1.tar.xz
