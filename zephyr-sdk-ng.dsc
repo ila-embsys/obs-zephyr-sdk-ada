@@ -22,7 +22,8 @@ Build-Depends:
  texinfo,
  g++-12,
  gnat-12,
- gprbuild
+ gprbuild,
+ gcc-12-update-alternatives
 Files:
 DEBTRANSFORM-TAR: zephyr-sdk-ng-0.15.0-beta2-29.tar.gz
 DEBTRANSFORM-FILES:
