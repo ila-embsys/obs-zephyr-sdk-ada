@@ -1,6 +1,6 @@
 Format: 3.0 (quilt)
 Source: zephyr-sdk-ng
-Version: 0.15.0-beta2-29-0
+Version: 0.15.0-beta2-30-0
 Binary: arm-zephyr-eabi
 Maintainer: Ilya Stolyarov <ila.embsys@gmail.com>
 Architecture: amd64
@@ -25,7 +25,7 @@ Build-Depends:
  gprbuild,
  gcc-12-update-alternatives
 Files:
-DEBTRANSFORM-TAR: zephyr-sdk-ng-0.15.0-beta2-29.tar.gz
+DEBTRANSFORM-TAR: zephyr-sdk-ng-0.15.0-beta2-30.tar.gz
 DEBTRANSFORM-FILES:
  expat-2.4.1.tar.xz
  gmp-6.2.1.tar.xz
