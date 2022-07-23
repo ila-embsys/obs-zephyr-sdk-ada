@@ -6,6 +6,12 @@
 # see FEATURE AREAS in dpkg-buildflags(1)
 #export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
+# Use nostrip to prevent erros in stripping cross target libs
+# like
+# strip: Unable to recognise the format of the input file
+# `debian/arm-zephyr-eabi/opt/zephyr-sdk/arm-zephyr-eabi/lib/arm/v5te/softfp/libc_nano.a(lib_a-syssbrk.o)'
+export DEB_BUILD_MAINT_OPTIONS = +nostrip
+
 # see ENVIRONMENT in dpkg-buildflags(1)
 # package maintainers to append CFLAGS
 #export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
